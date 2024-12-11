@@ -2,10 +2,10 @@ import base64
 import logging
 import hashlib
 
-logging.basicConfig(filename='base64_decoder.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='../base64_decoder.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
-input_file = 'input.txt'
-output_file = 'decoded_output.txt'
+input_file = '../input.txt'
+output_file = '../decoded_output.txt'
 
 try:
     with open(input_file, 'r') as infile:

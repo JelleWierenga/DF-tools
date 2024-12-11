@@ -2,10 +2,10 @@ import re
 import logging
 import hashlib
 
-logging.basicConfig(filename='is_it_base64.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(filename='../is_it_base64.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
-input_file = 'input.txt'
-validation_output_file = 'validation_result.txt'
+input_file = '../input.txt'
+validation_output_file = '../validation_result.txt'
 
 try:
     with open(input_file, 'r') as infile:
